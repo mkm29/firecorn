@@ -47,16 +47,16 @@ class UserGrapheneModel(PydanticObjectType):
 class CommentGrapheneInputModel(PydanticInputObjectType):
     class Meta:
         model = CommentsModel
-        exclude_fields = ('id', )
+        exclude_fields = ("id",)
 
 
 class PostGrapheneInputModel(PydanticInputObjectType):
     class Meta:
         model = PostModel
-        exclude_fields = ('id', 'comments')
+        exclude_fields = ("id", "comments")
 
 
 class UserGrapheneInputModel(PydanticInputObjectType):
     class Meta:
         model = UserModel
-        exclude_fields = ('id', 'posts', 'comments')
+        exclude_fields = ("id", "posts", "comments")

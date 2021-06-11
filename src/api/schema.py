@@ -7,7 +7,8 @@ from .modules.user.queries import UserQueries
 
 
 class Query(UserQueries):
-    """ Queries """
+    """Queries"""
+
 
 class Mutation(ObjectType):
     create_user = CreateUser.Field()

@@ -1,4 +1,8 @@
+# https://orator-orm.com/docs/0.8/basic_usage.html
+
 from orator import DatabaseManager, Schema, Model
+# from .settings import DATABASES
+
 
 # TODO - These need to be environment variables
 DATABASES = {
@@ -6,10 +10,10 @@ DATABASES = {
         "driver": "postgres",
         "host": "localhost",
         "database": "fastapi",
-        "user": "mitchellmurphy",
-        "password": "eunit6",
+        "user": "fastapi",
+        "password": "SuperSecretPassword",
         "prefix": "",
-        "port": 5432
+        "port": 5432,
     }
 }
 
