@@ -1,11 +1,9 @@
 from graphene import Mutation
 
-from src.serializers import (
-    PostGrapheneModel,
-    PostGrapheneInputModel
-)
+from src.serializers import PostGrapheneModel, PostGrapheneInputModel
 from src.models.user import User
 from src.models.post import Post
+
 
 class CreatePost(Mutation):
     class Arguments:

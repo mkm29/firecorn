@@ -3,8 +3,9 @@ from graphene import ObjectType, List, Field, NonNull, Int
 from src.serializers import UserGrapheneModel
 from src.models.user import User
 
+
 class UserQueries(ObjectType):
-    """ User queries """
+    """User queries"""
 
     get_user = Field(UserGrapheneModel, user_id=NonNull(Int))
     get_users = List(UserGrapheneModel)

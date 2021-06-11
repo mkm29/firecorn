@@ -4,7 +4,6 @@ LABEL name="Simple blog example using FastAPI, Uvicorn, Orator and Graphene" \
     maintainer="Mitchell Murphy<mitchell.murphy@spathesystems.com>"
 
 ARG APP_ROOT=/usr/src/app/
-ARG FLASK_PORT=8080
 
 # set work directory
 WORKDIR ${APP_ROOT}
@@ -37,4 +36,5 @@ COPY . ${APP_ROOT}
 
 EXPOSE 8080
 
-CMD uvicorn src.main:app --reload --port 8080
+CMD ["python", "asgi.py"]
+# uvicorn --factory src.app:create_app --port 8080

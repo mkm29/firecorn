@@ -1,10 +1,8 @@
 from graphene import Mutation
 
 from src.models.user import User
-from src.serializers import (
-    UserGrapheneInputModel,
-    UserGrapheneModel
-)
+from src.serializers import UserGrapheneInputModel, UserGrapheneModel
+
 
 class CreateUser(Mutation):
     class Arguments:
