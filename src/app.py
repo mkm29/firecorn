@@ -6,8 +6,7 @@ from .api.schema import Query, Mutation
 
 
 def create_app(debug=False):
-    app = FastAPI()
+    app = FastAPI(debug=debug)
 
-    app.add_route("/api", GraphQLApp(schema=Schema(query=Query, mutation=Mutation)))
-    app = FastAPI()
+    app.add_route("/", GraphQLApp(schema=Schema(query=Query, mutation=Mutation)))
     return app

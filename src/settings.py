@@ -10,7 +10,7 @@ SECRET_KEY = config('SECRET_KEY', cast=Secret)
 
 DATABASES = {
     "postgres": {
-        "driver": config("DB_DRIVER", default="sqlite"),
+        "driver": config("DB_DRIVER", default="postgres"),
         "host": config("DB_HOST", default="localhost"),
         "database": config("DB_DATABASE", default="fastapi"),
         "user": config("DB_USER", default=None),
