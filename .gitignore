@@ -1,0 +1,26 @@
+# IDEs
+.vscode
+
+# Environment
+.envrc
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Test Files
+.coverage
+test.db
+.pytest_cache
+reports/
+cov_html/
+
+# Log Files
+*.log
+
+# Miscellaneous
+.DS_Store
+#*.csv
+.scannerwork/
+anchore-reports/
+helm/

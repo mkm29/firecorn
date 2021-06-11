@@ -6,8 +6,8 @@ DATABASES = {
         "driver": "postgres",
         "host": "localhost",
         "database": "fastapi",
-        "user": "mitchellmurphy",
-        "password": "eunit6",
+        "user": "fastapi",
+        "password": "SuperSecretPassword",
         "prefix": "",
         "port": 5432
     }
