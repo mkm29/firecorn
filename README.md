@@ -29,3 +29,68 @@ This application can be run locally or via Docker (suggested). To run locally (a
 docker build -t superfast/blog:0.1.0 .
 docker run --rm -it -p 8080:8080 superfast/blog:0.1.0
 ```
+
+## Docker-compose
+
+I have included a `docker-compose.yml` file that will start a `PostgreSQL 12` instance, all you need to do is run `docker-compose up --build -d` and access the API at `http://localhost:8080`
+
+### Example Mutations/Queries
+
+```javascript
+mutation createUser {
+  createUser(userDetails: {
+    name: "John Doe",
+    address: "Some address",
+    phoneNumber: "12345678",
+    sex: "male"
+  })
+  {
+    id
+    name
+    posts {
+      body
+      comments {
+        body
+      }
+    }
+  }
+}
+
+mutation createPost {
+  createPost(postDetails: {
+    userId: 2,
+    title: "My first Post",
+    body: "This is a Post about myself"
+  })
+  {
+    id
+  }
+}
+
+mutation createComment {
+  createComment(commentDetails: {
+    userId: 2,
+    postId: 1,
+    body: "Another Comment"
+  })
+  {
+    id
+    body
+  }
+}
+
+query getUser {
+  getUser(userId: 1) {
+    name
+    posts {
+      title
+      comments {
+        body
+      }
+    }
+    comments {
+      body
+    }
+  }
+}
+```
