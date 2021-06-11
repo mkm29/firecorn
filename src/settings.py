@@ -16,5 +16,9 @@ DATABASES = {
         "user": config("DB_USER", default=None),
         "password": config("DB_PASSWORD", cast=Secret, default=None),
         "port": config("DB_PORT", cast=int, default=5432),
+    },
+    "sqlite": {
+        "driver": "sqlite",
+        "database": "test.db"
     }
 }
