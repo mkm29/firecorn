@@ -1,4 +1,4 @@
-FROM registry.redhat.io/rhel8/python-39
+FROM quay.agilesof.com/ironbankimages/python:3.9
 
 LABEL name="Simple blog example using FastAPI, Uvicorn, Orator and Graphene" \
     maintainer="Mitchell Murphy<mitchell.murphy@spathesystems.com>"
