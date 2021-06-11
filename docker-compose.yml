@@ -2,8 +2,8 @@ version: "3.7"
 services:
   db:
     image: postgres:12.0-alpine
-    # ports:
-    #   - 5432:5432
+    ports:
+      - 55432:5432
     env_file:
       - .env
     volumes:
