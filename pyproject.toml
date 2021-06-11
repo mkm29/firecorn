@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "fastapi-graphql"
+version = "0.1.0"
+description = "Demo app using FastAPI, SQLAlchemy and uvicorn"
+authors = ["Mitchell Murphy <mitchellmurphy@Mitchells-MacBook-Air.local>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.65.2"
+uvicorn = "^0.14.0"
+orator = "^0.9.9"
+psycopg2-binary = "^2.8.6"
+graphene = "^3.0.b5"
+graphene-pydantic = "^0.2.0"
+pytest = "^6.2.4"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
