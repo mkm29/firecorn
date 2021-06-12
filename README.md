@@ -1,4 +1,5 @@
-# SuperFast (simple) Blog
+# FireCorn
+![FireCorn](media/firecorn.jpeg)
 
 ```yaml
 Author: Mitchell Murphy
