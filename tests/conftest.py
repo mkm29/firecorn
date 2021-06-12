@@ -5,6 +5,7 @@ from orator.migrations import DatabaseMigrationRepository, Migrator
 import graphene
 from graphene.test import Client
 
+from src.app import create_app
 from src.api.schema import Query, Mutation
 from src.models.comment import Comments
 from src.models.post import Post
@@ -31,8 +32,13 @@ def setup_database():
     if not repository.repository_exists():
         repository.create_repository()
 
-    migrator.reset("migrations")
-    migrator.run("migrations")
+    migrator.reset("./src/migrations")
+    migrator.run("./src/migrations")
+
+@pytest.fixture(scope="module")
+def app():
+    app = create_app()
+    return app
 
 @pytest.fixture(scope="module")
 def client():
