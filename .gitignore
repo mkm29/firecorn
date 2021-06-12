@@ -24,3 +24,5 @@ cov_html/
 .scannerwork/
 anchore-reports/
 helm/
+tests/__pycache__/conftest.cpython-39-pytest-6.2.4.pyc
+tests/__pycache__/__init__.cpython-39.pyc
