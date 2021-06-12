@@ -2,7 +2,8 @@ from sqlalchemy.engine.url import URL, make_url
 from starlette.config import Config
 from starlette.datastructures import Secret
 
-config = Config('.env')
+# Read environment variables, rather than from .env file
+config = Config()
 
 DEBUG = config('DEBUG', cast=bool, default=False)
 TESTING = config('TESTING', cast=bool, default=False)
