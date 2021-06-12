@@ -35,6 +35,10 @@ docker run --rm -it -p 8080:8080 superfast/blog:0.1.0
 
 I have included a `docker-compose.yml` file that will start a `PostgreSQL 12` instance, all you need to do is run `docker-compose up --build -d` and access the API at `http://localhost:8080`
 
+## Tests
+
+Run tests with: `python -m pytest -s tests`. Currently there are 9 tests: 3 for User, Post and Comments, and coverage is at `95%` (test to create Post and Comments are failing even though they are created in the database).
+
 ### Example Mutations/Queries
 
 ```javascript
