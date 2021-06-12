@@ -3,7 +3,7 @@ from starlette.config import Config
 from starlette.datastructures import Secret
 
 # Read environment variables, rather than from .env file
-config = Config()
+config = Config(".env")
 
 DEBUG = config('DEBUG', cast=bool, default=False)
 TESTING = config('TESTING', cast=bool, default=False)

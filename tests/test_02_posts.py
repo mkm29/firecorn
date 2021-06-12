@@ -1,7 +1,8 @@
-def test_create_post(client):
+def test_create_post(client, user):
     mutation = """
+    mutation createPost {
     createPost(postDetails: {
-        userId: 1,
+        userId: %s,
         title: "My first Post",
         body: "This is a Post about myself"
     })
@@ -10,7 +11,7 @@ def test_create_post(client):
         body
     }
     }
-    """
+    """ % user.id
 
     result = client.execute(mutation)
     assert result['data']['createPost']['id'] == 1

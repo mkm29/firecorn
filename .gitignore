@@ -5,8 +5,8 @@
 .envrc
 
 # Python
-__pycache__/
-*.py[cod]
+src/__pycache__/
+src/*/*.py[cod]
 
 # Test Files
 .coverage

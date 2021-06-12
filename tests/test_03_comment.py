@@ -1,9 +1,9 @@
-def test_create_comment(client):
+def test_create_comment(client, user, post):
     mutation = """
     mutation createComment {
         createComment(commentDetails: {
-            userId: 1,
-            postId: 1,
+            userId: %s,
+            postId: %s,
             body: "Another Comment"
         })
         {
@@ -11,7 +11,7 @@ def test_create_comment(client):
             body
         }
     }
-    """
+    """ % (user.id, post.id)
 
     result = client.execute(mutation)
     assert result['data']['createComment']['id'] == 1

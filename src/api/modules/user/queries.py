@@ -15,5 +15,5 @@ class UserQueries(ObjectType):
         return User.find_or_fail(user_id)
 
     @staticmethod
-    def resolve_list_users(parent, info):
+    def resolve_get_users(parent, info):
         return User.all()
