@@ -63,7 +63,7 @@ mutation createUser {
 
 mutation createPost {
   createPost(postDetails: {
-    userId: 2,
+    userId: 1,
     title: "My first Post",
     body: "This is a Post about myself"
   })
@@ -74,7 +74,7 @@ mutation createPost {
 
 mutation createComment {
   createComment(commentDetails: {
-    userId: 2,
+    userId: 1,
     postId: 1,
     body: "Another Comment"
   })
