@@ -5,9 +5,9 @@ from starlette.datastructures import Secret
 # Read environment variables, rather than from .env file
 config = Config(".env")
 
-DEBUG = config('DEBUG', cast=bool, default=False)
-TESTING = config('TESTING', cast=bool, default=False)
-SECRET_KEY = config('SECRET_KEY', cast=Secret)
+DEBUG = config("DEBUG", cast=bool, default=False)
+TESTING = config("TESTING", cast=bool, default=False)
+SECRET_KEY = config("SECRET_KEY", cast=Secret)
 
 DATABASES = {
     "postgres": {
