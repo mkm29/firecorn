@@ -1,5 +1,6 @@
 # FireCorn
 
+[![Install Dependencies, Check Quality and Run Tests](https://github.com/mkm29/firecorn/actions/workflows/test.yaml/badge.svg)](https://github.com/mkm29/firecorn/actions/workflows/test.yaml)
 [![Security Scan](https://github.com/mkm29/firecorn/actions/workflows/scan.yaml/badge.svg)](https://github.com/mkm29/firecorn/actions/workflows/scan.yaml)
 
 ![FireCorn](media/firecorn.jpeg)
@@ -40,7 +41,7 @@ I have included a `docker-compose.yml` file that will start a `PostgreSQL 12` in
 
 ## Tests
 
-Run tests with: `python -m pytest -s tests`. Currently there are 9 tests: 3 for User, Post and Comments, and coverage is at `95%` (test to create Post and Comments are failing even though they are created in the database).
+Run tests with: `python -m pytest -s tests`. Currently there are 9 tests: 3 for User, Post and Comments, and coverage is at `100%`.
 
 ### Example Mutations/Queries
 
