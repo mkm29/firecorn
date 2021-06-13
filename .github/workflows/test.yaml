@@ -1,4 +1,4 @@
-name: Test
+name: Install Dependencies, Check Quality and Run Tests
 
 on:
   push:
@@ -30,8 +30,6 @@ jobs:
         with:
           path: ~/.virtualenvs
           key: poetry-${{ hashFiles('**/poetry.lock') }}
-          restore-keys: |
-            poetry-${{ hashFiles('**/poetry.lock') }}
 
       - name: Set Poetry config
         run: |
@@ -47,3 +45,9 @@ jobs:
 
       - name: Test with pytest
         run: poetry run pytest
+
+      - name: Coveralls
+        uses: coverallsapp/github-action@master
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          path-to-lcov: reports/coverage.xml
