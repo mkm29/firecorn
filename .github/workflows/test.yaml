@@ -46,8 +46,11 @@ jobs:
       - name: Test with pytest
         run: poetry run pytest
 
-      - name: Coveralls
-        uses: coverallsapp/github-action@master
+      - name: Code Coverage
+        uses: codecov/codecov-action@v1
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          path-to-lcov: ./reports/coverage.xml
+          token: ${{ secrets.GITHUB_TOKEN }} # not required for public repos
+          files: ./reports/coverage1.xml
+          flags: unittests # optional
+          fail_ci_if_error: false # optional (default = false)
+          verbose: true # optional (default = false)
