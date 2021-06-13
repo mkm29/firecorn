@@ -1,4 +1,7 @@
 # FireCorn
+
+[![Security Scan](https://github.com/mkm29/firecorn/actions/workflows/scan.yaml/badge.svg)](https://github.com/mkm29/firecorn/actions/workflows/scan.yaml)
+
 ![FireCorn](media/firecorn.jpeg)
 
 ```yaml
