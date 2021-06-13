@@ -1,4 +1,7 @@
 # FireCorn
+
+![Tests](https://github.com/github/docs/actions/workflows/test.yml/badge.svg)
+
 ![FireCorn](media/firecorn.jpeg)
 
 ```yaml
