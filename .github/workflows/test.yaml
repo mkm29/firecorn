@@ -41,7 +41,7 @@ jobs:
         if: steps.cache.outputs.cache-hit != 'true'
 
       - name: Code Quality
-        run: poetry run black src --check
+        run: poetry run black src
 
       - name: Test with pytest
         run: poetry run pytest
