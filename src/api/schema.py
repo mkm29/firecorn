@@ -1,4 +1,6 @@
-from graphene import ObjectType, String
+"""GraphQL Schema"""
+
+from graphene import ObjectType
 
 from .modules.comment.mutations import CreateComment
 from .modules.post.mutations import CreatePost
@@ -13,6 +15,8 @@ class Query(UserQueries, CommentsQueries, PostQueries):
 
 
 class Mutation(ObjectType):
+    """Mutations"""
+
     create_user = CreateUser.Field()
     create_post = CreatePost.Field()
     create_comment = CreateComment.Field()

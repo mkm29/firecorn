@@ -1,4 +1,5 @@
-from sqlalchemy.engine.url import URL, make_url
+""" Starlette Configuration (for FastAPI app)"""
+
 from starlette.config import Config
 from starlette.datastructures import Secret
 

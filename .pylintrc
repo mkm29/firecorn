@@ -1,0 +1,3 @@
+[MASTER]
+
+disable = invalid-name, broad-except, too-few-public-methods, import-error, unused-argument

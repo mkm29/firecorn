@@ -1,7 +1,9 @@
+# pylint: disable=missing-module-docstring
 from orator.migrations import Migration
 
 
 class CreateCommentsTable(Migration):
+    # pylint: disable=missing-class-docstring
     def up(self):
         """
         Run the migrations.
