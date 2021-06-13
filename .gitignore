@@ -9,11 +9,10 @@ src/__pycache__/
 src/*/*.py[cod]
 
 # Test Files
-.coverage
+# .coverage
 test.db
 .pytest_cache
-reports/
-cov_html/
+# reports/
 
 # Log Files
 *.log
