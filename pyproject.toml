@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "fastapi-graphql"
-version = "0.1.0"
+version = "0.1.1"
 description = "Demo app using FastAPI, SQLAlchemy and uvicorn"
 authors = ["Mitchell Murphy <mitchellmurphy@Mitchells-MacBook-Air.local>"]
 

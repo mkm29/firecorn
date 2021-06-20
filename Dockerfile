@@ -1,7 +1,10 @@
-FROM python:3.9.5
+# FROM python:3.8
+FROM registry.redhat.io/rhel8/python-39:latest
 
 LABEL name="Simple blog example using FastAPI, Uvicorn, Orator and Graphene" \
-    maintainer="Mitchell Murphy<mitchell.murphy@spathesystems.com>"
+    maintainer="Mitchell Murphy<mitch.murphy@gmail.com>" \
+    documentation="https://gitlab.com/kaizo_pipe/flaskql" \
+    license="GPL-2.0-only"
 
 ARG APP_ROOT=/usr/src/app/
 
@@ -19,7 +22,7 @@ ENV APP_NAME=superfast-blog \
   PIP_NO_CACHE_DIR=off \
   PIP_DISABLE_PIP_VERSION_CHECK=on \
   PIP_DEFAULT_TIMEOUT=100 \
-  POETRY_VERSION=1.0.0
+  POETRY_VERSION=1.1
 
 # System deps:
 COPY pyproject.toml poetry.lock ${APP_ROOT}/
@@ -37,4 +40,3 @@ COPY . ${APP_ROOT}
 EXPOSE 8080
 
 CMD ["python", "asgi.py"]
-# uvicorn --factory src.app:create_app --port 8080
