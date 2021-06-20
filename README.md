@@ -2,6 +2,8 @@
 
 [![Install Dependencies, Check Quality and Run Tests](https://github.com/mkm29/firecorn/actions/workflows/test.yaml/badge.svg)](https://github.com/mkm29/firecorn/actions/workflows/test.yaml)
 [![Security Scan](https://github.com/mkm29/firecorn/actions/workflows/scan.yaml/badge.svg)](https://github.com/mkm29/firecorn/actions/workflows/scan.yaml)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=mkm29_firecorn&metric=coverage)](https://sonarcloud.io/dashboard?id=mkm29_firecorn)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=mkm29_firecorn&metric=bugs)](https://sonarcloud.io/dashboard?id=mkm29_firecorn)
 [![Python 3.9](https://img.shields.io/badge/python-3.9-blue.svg)](https://www.python.org/downloads/release/python-390/)
 
 ![FireCorn](media/firecorn.jpeg)
