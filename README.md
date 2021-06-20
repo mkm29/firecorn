@@ -2,6 +2,7 @@
 
 [![Install Dependencies, Check Quality and Run Tests](https://github.com/mkm29/firecorn/actions/workflows/test.yaml/badge.svg)](https://github.com/mkm29/firecorn/actions/workflows/test.yaml)
 [![Security Scan](https://github.com/mkm29/firecorn/actions/workflows/scan.yaml/badge.svg)](https://github.com/mkm29/firecorn/actions/workflows/scan.yaml)
+[![Python 3.9](https://img.shields.io/badge/python-3.9-blue.svg)](https://www.python.org/downloads/release/python-390/)
 
 ![FireCorn](media/firecorn.jpeg)
 
