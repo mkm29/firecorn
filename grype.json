@@ -1,0 +1,515 @@
+NAME                    INSTALLED                                          FIXED-IN                                   VULNERABILITY        SEVERITY 
+backpack                0.1                                                (fixes indeterminate)                      CVE-2008-2035        Medium    
+binutils                2.30-93.el8                                        (won't fix)                                CVE-2018-12934       Low       
+binutils                2.30-93.el8                                        (won't fix)                                CVE-2018-6872        Low       
+binutils                2.30-93.el8                                        (won't fix)                                CVE-2018-12699       Low       
+binutils                2.30-93.el8                                        (won't fix)                                CVE-2018-20623       Medium    
+binutils                2.30-93.el8                                        (won't fix)                                CVE-2018-17360       Low       
+binutils                2.30-93.el8                                        (won't fix)                                CVE-2018-18484       Low       
+binutils                2.30-93.el8                                        (won't fix)                                CVE-2018-18606       Low       
+binutils                2.30-93.el8                                        (won't fix)                                CVE-2018-18309       Low       
+binutils                2.30-93.el8                                        (won't fix)                                CVE-2019-9074        Medium    
+binutils                2.30-93.el8                                        (won't fix)                                CVE-2018-18701       Low       
+binutils                2.30-93.el8                                        (won't fix)                                CVE-2018-18605       Low       
+binutils                2.30-93.el8                                        (won't fix)                                CVE-2018-12698       Low       
+binutils                2.30-93.el8                                        (won't fix)                                CVE-2018-20671       Medium    
+binutils                2.30-93.el8                                        (won't fix)                                CVE-2018-17985       Low       
+binutils                2.30-93.el8                                        (won't fix)                                CVE-2018-20002       Low       
+binutils                2.30-93.el8                                        (won't fix)                                CVE-2018-20651       Low       
+binutils                2.30-93.el8                                        (won't fix)                                CVE-2018-19932       Low       
+binutils                2.30-93.el8                                        (won't fix)                                CVE-2018-20673       Medium    
+binutils                2.30-93.el8                                        (won't fix)                                CVE-2018-12697       Low       
+binutils                2.30-93.el8                                        (won't fix)                                CVE-2018-1000876     Medium    
+binutils                2.30-93.el8                                        (won't fix)                                CVE-2019-9075        Medium    
+binutils                2.30-93.el8                                        (won't fix)                                CVE-2018-12700       Low       
+binutils                2.30-93.el8                                        (won't fix)                                CVE-2019-14250       Low       
+binutils                2.30-93.el8                                        (won't fix)                                CVE-2018-18607       Low       
+binutils                2.30-93.el8                                        (won't fix)                                CVE-2018-18483       Low       
+binutils                2.30-93.el8                                        (won't fix)                                CVE-2019-9077        Medium    
+binutils                2.30-93.el8                                        (won't fix)                                CVE-2019-9071        Low       
+binutils                2.30-93.el8                                        (won't fix)                                CVE-2018-17794       Low       
+binutils                2.30-93.el8                                        (won't fix)                                CVE-2018-20657       Low       
+binutils                2.30-93.el8                                        (won't fix)                                CVE-2019-12972       Low       
+binutils                2.30-93.el8                                        (won't fix)                                CVE-2018-12641       Low       
+binutils                2.30-93.el8                                        (won't fix)                                CVE-2018-18700       Low       
+binutils                2.30-93.el8                                        (won't fix)                                CVE-2020-16598       Low       
+binutils                2.30-93.el8                                                                                   CVE-2021-20197       Medium    
+binutils                2.30-93.el8                                        (won't fix)                                CVE-2020-35494       Low       
+binutils                2.30-93.el8                                        (won't fix)                                CVE-2020-35495       Low       
+binutils                2.30-93.el8                                        (won't fix)                                CVE-2020-35507       Low       
+binutils                2.30-93.el8                                        (won't fix)                                CVE-2020-35496       Low       
+binutils                2.30-93.el8                                        (won't fix)                                CVE-2020-35493       Low       
+binutils                2.30-93.el8                                                                                   CVE-2021-3487        Medium    
+binutils                2.30-93.el8                                                                                   CVE-2020-35448       Low       
+binutils                2.30-93.el8                                                                                   CVE-2021-20284       Low       
+bsdtar                  3.3.3-1.el8                                        (won't fix)                                CVE-2017-14501       Low       
+bsdtar                  3.3.3-1.el8                                        (won't fix)                                CVE-2018-1000879     Low       
+bsdtar                  3.3.3-1.el8                                        (won't fix)                                CVE-2017-14166       Low       
+bsdtar                  3.3.3-1.el8                                        (won't fix)                                CVE-2018-1000880     Low       
+bsdtar                  3.3.3-1.el8                                        (won't fix)                                CVE-2020-21674       Medium    
+bzip2                   1.0.6-26.el8                                       (won't fix)                                CVE-2019-12900       Low       
+bzip2-devel             1.0.6-26.el8                                       (won't fix)                                CVE-2019-12900       Low       
+bzip2-libs              1.0.6-26.el8                                       (won't fix)                                CVE-2019-12900       Low       
+click                   8.0.1                                              (fixes indeterminate)                      CVE-2015-8768        Critical  
+coreutils-single        8.30-8.el8                                         (won't fix)                                CVE-2017-18018       Medium    
+cpp                     8.4.1-1.el8                                        (won't fix)                                CVE-2018-20673       Medium    
+cpp                     8.4.1-1.el8                                        (won't fix)                                CVE-2019-14250       Low       
+cpp                     8.4.1-1.el8                                        (won't fix)                                CVE-2018-20657       Low       
+curl                    7.61.1-18.el8                                                                                 CVE-2021-22898       Low       
+curl                    7.61.1-18.el8                                                                                 CVE-2021-22876       Medium    
+dbus                    1.12.8-12.el8_4.2                                  (won't fix)                                CVE-2020-35512       Low       
+dbus-common             1.12.8-12.el8_4.2                                  (won't fix)                                CVE-2020-35512       Low       
+dbus-daemon             1.12.8-12.el8_4.2                                  (won't fix)                                CVE-2020-35512       Low       
+dbus-libs               1.12.8-12.el8_4.2                                  (won't fix)                                CVE-2020-35512       Low       
+dbus-tools              1.12.8-12.el8_4.2                                  (won't fix)                                CVE-2020-35512       Low       
+dot-prop                4.2.1                                              (fixes indeterminate)                      CVE-2020-8116        High      
+editor                  1.0.0                                              (fixes indeterminate)                      CVE-2015-0903        High      
+file                    5.33-16.el8_3.1                                    (won't fix)                                CVE-2019-8906        Low       
+file                    5.33-16.el8_3.1                                    (won't fix)                                CVE-2019-8905        Low       
+file                    5.33-16.el8_3.1                                    (won't fix)                                CVE-2019-18218       Medium    
+file-libs               5.33-16.el8_3.1                                    (won't fix)                                CVE-2019-8906        Low       
+file-libs               5.33-16.el8_3.1                                    (won't fix)                                CVE-2019-8905        Low       
+file-libs               5.33-16.el8_3.1                                    (won't fix)                                CVE-2019-18218       Medium    
+gcc                     8.4.1-1.el8                                        (won't fix)                                CVE-2018-20673       Medium    
+gcc                     8.4.1-1.el8                                        (won't fix)                                CVE-2019-14250       Low       
+gcc                     8.4.1-1.el8                                        (won't fix)                                CVE-2018-20657       Low       
+gcc-c++                 8.4.1-1.el8                                        (won't fix)                                CVE-2018-20673       Medium    
+gcc-c++                 8.4.1-1.el8                                        (won't fix)                                CVE-2019-14250       Low       
+gcc-c++                 8.4.1-1.el8                                        (won't fix)                                CVE-2018-20657       Low       
+gcc-gdb-plugin          8.4.1-1.el8                                        (won't fix)                                CVE-2018-20673       Medium    
+gcc-gdb-plugin          8.4.1-1.el8                                        (won't fix)                                CVE-2019-14250       Low       
+gcc-gdb-plugin          8.4.1-1.el8                                        (won't fix)                                CVE-2018-20657       Low       
+gcc-gfortran            8.4.1-1.el8                                        (won't fix)                                CVE-2018-20673       Medium    
+gcc-gfortran            8.4.1-1.el8                                        (won't fix)                                CVE-2019-14250       Low       
+gcc-gfortran            8.4.1-1.el8                                        (won't fix)                                CVE-2018-20657       Low       
+gd                      2.2.5-7.el8                                        (won't fix)                                CVE-2019-11038       Low       
+gd                      2.2.5-7.el8                                        (won't fix)                                CVE-2018-5711        Low       
+gd-devel                2.2.5-7.el8                                        (won't fix)                                CVE-2019-11038       Low       
+gd-devel                2.2.5-7.el8                                        (won't fix)                                CVE-2018-5711        Low       
+git                     2.27.0-1.el8                                       (won't fix)                                CVE-2018-1000021     Medium    
+git                     2.27.0-1.el8                                       (won't fix)                                CVE-2021-21300       Medium    
+git-core                2.27.0-1.el8                                       (won't fix)                                CVE-2018-1000021     Medium    
+git-core                2.27.0-1.el8                                       (won't fix)                                CVE-2021-21300       Medium    
+git-core-doc            2.27.0-1.el8                                       (won't fix)                                CVE-2018-1000021     Medium    
+git-core-doc            2.27.0-1.el8                                       (won't fix)                                CVE-2021-21300       Medium    
+glib2                   2.56.4-10.el8_4                                    (won't fix)                                CVE-2018-16428       Low       
+glib2                   2.56.4-10.el8_4                                    (won't fix)                                CVE-2018-16429       Low       
+glib2                   2.56.4-10.el8_4                                                                               CVE-2021-27218       Medium    
+glib2                   2.56.4-10.el8_4                                                                               CVE-2021-28153       Low       
+glibc                   2.28-151.el8                                                                                  CVE-2021-27645       Low       
+glibc                   2.28-151.el8                                                                                  CVE-2021-33574       Low       
+glibc                   2.28-151.el8                                       (won't fix)                                CVE-2019-1010022     Unknown   
+glibc-common            2.28-151.el8                                                                                  CVE-2021-27645       Low       
+glibc-common            2.28-151.el8                                                                                  CVE-2021-33574       Low       
+glibc-common            2.28-151.el8                                       (won't fix)                                CVE-2019-1010022     Unknown   
+glibc-devel             2.28-151.el8                                                                                  CVE-2021-27645       Low       
+glibc-devel             2.28-151.el8                                                                                  CVE-2021-33574       Low       
+glibc-devel             2.28-151.el8                                       (won't fix)                                CVE-2019-1010022     Unknown   
+glibc-headers           2.28-151.el8                                                                                  CVE-2021-27645       Low       
+glibc-headers           2.28-151.el8                                                                                  CVE-2021-33574       Low       
+glibc-headers           2.28-151.el8                                       (won't fix)                                CVE-2019-1010022     Unknown   
+glibc-langpack-en       2.28-151.el8                                                                                  CVE-2021-27645       Low       
+glibc-langpack-en       2.28-151.el8                                                                                  CVE-2021-33574       Low       
+glibc-langpack-en       2.28-151.el8                                       (won't fix)                                CVE-2019-1010022     Unknown   
+glibc-locale-source     2.28-151.el8                                                                                  CVE-2021-27645       Low       
+glibc-locale-source     2.28-151.el8                                                                                  CVE-2021-33574       Low       
+glibc-locale-source     2.28-151.el8                                       (won't fix)                                CVE-2019-1010022     Unknown   
+glibc-minimal-langpack  2.28-151.el8                                                                                  CVE-2021-27645       Low       
+glibc-minimal-langpack  2.28-151.el8                                                                                  CVE-2021-33574       Low       
+glibc-minimal-langpack  2.28-151.el8                                       (won't fix)                                CVE-2019-1010022     Unknown   
+gnutls                  3.6.14-8.el8_3                                                                                CVE-2021-20231       Medium    
+gnutls                  3.6.14-8.el8_3                                                                                CVE-2021-20232       Medium    
+hosted-git-info         2.8.8                                              2.8.9                                      GHSA-43f8-2h32-f4cj  Medium    
+hosted-git-info         2.8.8                                              (fixes indeterminate)                      CVE-2021-23362       Medium    
+json-c                  0.13.1-0.4.el8                                     (won't fix)                                CVE-2020-12762       Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                               (won't fix)                                CVE-2018-7273        Low       
+kernel-headers          4.18.0-305.3.1.el8_4                               (won't fix)                                CVE-2019-19536       Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                               (won't fix)                                CVE-2019-19039       Low       
+kernel-headers          4.18.0-305.3.1.el8_4                               (won't fix)                                CVE-2018-17977       Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                               (won't fix)                                CVE-2019-11184       Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                               (won't fix)                                CVE-2019-2054        Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                               (won't fix)                                CVE-2018-10021       Unknown   
+kernel-headers          4.18.0-305.3.1.el8_4                               (won't fix)                                CVE-2018-8043        Low       
+kernel-headers          4.18.0-305.3.1.el8_4                               (won't fix)                                CVE-2019-14284       Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                               (won't fix)                                CVE-2018-15594       Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                               (won't fix)                                CVE-2019-19535       Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                               (won't fix)                                CVE-2018-16862       Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                               (won't fix)                                CVE-2019-15794       Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                               (won't fix)                                CVE-2019-19080       Low       
+kernel-headers          4.18.0-305.3.1.el8_4                               (won't fix)                                CVE-2020-11494       Low       
+kernel-headers          4.18.0-305.3.1.el8_4                               (won't fix)                                CVE-2019-19076       Low       
+kernel-headers          4.18.0-305.3.1.el8_4                               (won't fix)                                CVE-2019-19066       Low       
+kernel-headers          4.18.0-305.3.1.el8_4                               (won't fix)                                CVE-2020-12768       Low       
+kernel-headers          4.18.0-305.3.1.el8_4                               (won't fix)                                CVE-2019-19462       Low       
+kernel-headers          4.18.0-305.3.1.el8_4                               (won't fix)                                CVE-2019-19081       Low       
+kernel-headers          4.18.0-305.3.1.el8_4                               (won't fix)                                CVE-2020-12656       Low       
+kernel-headers          4.18.0-305.3.1.el8_4                               (won't fix)                                CVE-2019-14283       Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                                                                          CVE-2019-20095       Low       
+kernel-headers          4.18.0-305.3.1.el8_4                                                                          CVE-2020-10741       Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                               (won't fix)                                CVE-2019-12380       Low       
+kernel-headers          4.18.0-305.3.1.el8_4                               (won't fix)                                CVE-2019-15218       Low       
+kernel-headers          4.18.0-305.3.1.el8_4                               (won't fix)                                CVE-2019-16230       Low       
+kernel-headers          4.18.0-305.3.1.el8_4                               (won't fix)                                CVE-2019-15505       Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                               (won't fix)                                CVE-2019-15291       Low       
+kernel-headers          4.18.0-305.3.1.el8_4                               (won't fix)                                CVE-2019-16229       Low       
+kernel-headers          4.18.0-305.3.1.el8_4                               (won't fix)                                CVE-2019-19965       Low       
+kernel-headers          4.18.0-305.3.1.el8_4                               (won't fix)                                CVE-2019-16089       Low       
+kernel-headers          4.18.0-305.3.1.el8_4                               (won't fix)                                CVE-2020-10781       Low       
+kernel-headers          4.18.0-305.3.1.el8_4                               (won't fix)                                CVE-2019-19083       Low       
+kernel-headers          4.18.0-305.3.1.el8_4                               (won't fix)                                CVE-2019-19082       Low       
+kernel-headers          4.18.0-305.3.1.el8_4                               (won't fix)                                CVE-2020-14304       Low       
+kernel-headers          4.18.0-305.3.1.el8_4                               (won't fix)                                CVE-2019-19054       Low       
+kernel-headers          4.18.0-305.3.1.el8_4                               (won't fix)                                CVE-2019-18806       Low       
+kernel-headers          4.18.0-305.3.1.el8_4                               (won't fix)                                CVE-2020-11609       Low       
+kernel-headers          4.18.0-305.3.1.el8_4                               (won't fix)                                CVE-2020-12769       Low       
+kernel-headers          4.18.0-305.3.1.el8_4                               (won't fix)                                CVE-2019-13631       Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                               (won't fix)                                CVE-2019-15213       Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                               (won't fix)                                CVE-2018-10940       Low       
+kernel-headers          4.18.0-305.3.1.el8_4                               (won't fix)                                CVE-2020-10135       Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                                                                          CVE-2020-14390       Low       
+kernel-headers          4.18.0-305.3.1.el8_4                               (won't fix)                                CVE-2019-19530       Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                               (won't fix)                                CVE-2019-15217       Low       
+kernel-headers          4.18.0-305.3.1.el8_4                                                                          CVE-2020-26541       Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                               (won't fix)                                CVE-2019-19529       Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                               (won't fix)                                CVE-2011-4087        Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                               (won't fix)                                CVE-2011-1180        Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                               (won't fix)                                CVE-2011-1017        Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                                                                          CVE-2020-28915       Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                               (won't fix)                                CVE-2010-4529        Low       
+kernel-headers          4.18.0-305.3.1.el8_4                               (won't fix)                                CVE-2019-14615       Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                                                                          CVE-2020-36158       Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                                                                          CVE-2020-4788        Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                               (won't fix)                                CVE-2019-15219       Low       
+kernel-headers          4.18.0-305.3.1.el8_4                                                                          CVE-2020-0404        Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                                                                          CVE-2021-20194       Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                                                                          CVE-2020-27777       Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                                                                          CVE-2021-3178        Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                                                                          CVE-2021-3348        Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                                                                          CVE-2020-29660       Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                               (won't fix)                                CVE-2019-15807       Low       
+kernel-headers          4.18.0-305.3.1.el8_4                               (won't fix)                                CVE-2020-27820       Low       
+kernel-headers          4.18.0-305.3.1.el8_4                                                                          CVE-2021-20239       Low       
+kernel-headers          4.18.0-305.3.1.el8_4                                                                          CVE-2021-20268       Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                                                                          CVE-2020-35501       Low       
+kernel-headers          4.18.0-305.3.1.el8_4                               (won't fix)                                CVE-2020-25639       Low       
+kernel-headers          4.18.0-305.3.1.el8_4                               (won't fix)                                CVE-2020-25656       Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                                                                          CVE-2020-25645       Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                                                                          CVE-2020-0427        Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                                                                          CVE-2021-3428        Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                                                                          CVE-2020-24504       Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                                                                          CVE-2020-24503       Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                                                                          CVE-2020-24502       Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                                                                          CVE-2020-27171       Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                                                                          CVE-2021-3444        Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                                                                          CVE-2021-29154       Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                                                                          CVE-2021-28971       Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                                                                          CVE-2021-29650       Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                                                                          CVE-2021-28950       Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                                                                          CVE-2021-28972       Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                                                                          CVE-2021-23133       Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                                                                          CVE-2021-29646       Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                                                                          CVE-2021-30002       Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                               (won't fix)                                CVE-2019-20794       Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                                                                          CVE-2020-36312       Low       
+kernel-headers          4.18.0-305.3.1.el8_4                                                                          CVE-2020-24586       Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                                                                          CVE-2021-3542        Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                                                                          CVE-2021-31829       Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                                                                          CVE-2020-8694        Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                                                                          CVE-2020-26140       Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                                                                          CVE-2020-26144       Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                                                                          CVE-2020-26143       Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                                                                          CVE-2020-36311       Low       
+kernel-headers          4.18.0-305.3.1.el8_4                                                                          CVE-2021-33034       High      
+kernel-headers          4.18.0-305.3.1.el8_4                                                                          CVE-2020-26555       Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                                                                          CVE-2021-31916       Low       
+kernel-headers          4.18.0-305.3.1.el8_4                                                                          CVE-2021-29155       Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                                                                          CVE-2021-31440       Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                                                                          CVE-2021-3564        Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                               (won't fix)                                CVE-2020-29374       Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                                                                          CVE-2021-3573        Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                                                                          CVE-2021-33033       Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                                                                          CVE-2020-27170       Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                               (won't fix)                                CVE-2020-13844       Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                                                                          CVE-2020-24587       Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                                                                          CVE-2020-24588       Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                                                                          CVE-2020-26139       Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                                                                          CVE-2020-26141       Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                                                                          CVE-2021-3489        Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                                                                          CVE-2021-3490        Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                                                                          CVE-2021-0129        Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                                                                          CVE-2021-32399       High      
+kernel-headers          4.18.0-305.3.1.el8_4                                                                          CVE-2021-22543       Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                                                                          CVE-2021-33200       Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                               (won't fix)                                CVE-2020-15802       Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                               (won't fix)                                CVE-2020-29368       Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                                                                          CVE-2021-34693       Medium    
+kernel-headers          4.18.0-305.3.1.el8_4                               (won't fix)                                CVE-2020-14416       Medium    
+libX11                  1.6.8-4.el8                                                                                   CVE-2021-31535       High      
+libX11-common           1.6.8-4.el8                                                                                   CVE-2021-31535       High      
+libX11-devel            1.6.8-4.el8                                                                                   CVE-2021-31535       High      
+libX11-xcb              1.6.8-4.el8                                                                                   CVE-2021-31535       High      
+libarchive              3.3.3-1.el8                                        (won't fix)                                CVE-2017-14501       Low       
+libarchive              3.3.3-1.el8                                        (won't fix)                                CVE-2018-1000879     Low       
+libarchive              3.3.3-1.el8                                        (won't fix)                                CVE-2017-14166       Low       
+libarchive              3.3.3-1.el8                                        (won't fix)                                CVE-2018-1000880     Low       
+libarchive              3.3.3-1.el8                                        (won't fix)                                CVE-2020-21674       Medium    
+libcurl                 7.61.1-18.el8                                                                                 CVE-2021-22898       Low       
+libcurl                 7.61.1-18.el8                                                                                 CVE-2021-22876       Medium    
+libcurl-devel           7.61.1-18.el8                                                                                 CVE-2021-22898       Low       
+libcurl-devel           7.61.1-18.el8                                                                                 CVE-2021-22876       Medium    
+libdnf                  0.55.0-7.el8                                                                                  CVE-2021-3445        Medium    
+libgcc                  8.4.1-1.el8                                        (won't fix)                                CVE-2018-20673       Medium    
+libgcc                  8.4.1-1.el8                                        (won't fix)                                CVE-2019-14250       Low       
+libgcc                  8.4.1-1.el8                                        (won't fix)                                CVE-2018-20657       Low       
+libgcrypt               1.8.5-4.el8                                        (won't fix)                                CVE-2019-12904       Medium    
+libgcrypt               1.8.5-4.el8                                                                                   CVE-2021-33560       Medium    
+libgcrypt-devel         1.8.5-4.el8                                        (won't fix)                                CVE-2019-12904       Medium    
+libgcrypt-devel         1.8.5-4.el8                                                                                   CVE-2021-33560       Medium    
+libgfortran             8.4.1-1.el8                                        (won't fix)                                CVE-2018-20673       Medium    
+libgfortran             8.4.1-1.el8                                        (won't fix)                                CVE-2019-14250       Low       
+libgfortran             8.4.1-1.el8                                        (won't fix)                                CVE-2018-20657       Low       
+libgomp                 8.4.1-1.el8                                        (won't fix)                                CVE-2018-20673       Medium    
+libgomp                 8.4.1-1.el8                                        (won't fix)                                CVE-2019-14250       Low       
+libgomp                 8.4.1-1.el8                                        (won't fix)                                CVE-2018-20657       Low       
+libjpeg-turbo           1.5.3-10.el8                                       (won't fix)                                CVE-2019-2201        Medium    
+libjpeg-turbo           1.5.3-10.el8                                       (won't fix)                                CVE-2020-13790       Medium    
+libjpeg-turbo           1.5.3-10.el8                                                                                  CVE-2020-17541       Medium    
+libjpeg-turbo-devel     1.5.3-10.el8                                       (won't fix)                                CVE-2019-2201        Medium    
+libjpeg-turbo-devel     1.5.3-10.el8                                       (won't fix)                                CVE-2020-13790       Medium    
+libjpeg-turbo-devel     1.5.3-10.el8                                                                                  CVE-2020-17541       Medium    
+libpng                  1.6.34-5.el8                                       (won't fix)                                CVE-2019-7317        Low       
+libpng-devel            1.6.34-5.el8                                       (won't fix)                                CVE-2019-7317        Low       
+libquadmath             8.4.1-1.el8                                        (won't fix)                                CVE-2018-20673       Medium    
+libquadmath             8.4.1-1.el8                                        (won't fix)                                CVE-2019-14250       Low       
+libquadmath             8.4.1-1.el8                                        (won't fix)                                CVE-2018-20657       Low       
+libquadmath-devel       8.4.1-1.el8                                        (won't fix)                                CVE-2018-20673       Medium    
+libquadmath-devel       8.4.1-1.el8                                        (won't fix)                                CVE-2019-14250       Low       
+libquadmath-devel       8.4.1-1.el8                                        (won't fix)                                CVE-2018-20657       Low       
+libsolv                 0.7.16-2.el8                                                                                  CVE-2021-3200        Low       
+libssh                  0.9.4-2.el8                                                                                   CVE-2020-16135       Low       
+libssh-config           0.9.4-2.el8                                                                                   CVE-2020-16135       Low       
+libstdc++               8.4.1-1.el8                                        (won't fix)                                CVE-2018-20673       Medium    
+libstdc++               8.4.1-1.el8                                        (won't fix)                                CVE-2019-14250       Low       
+libstdc++               8.4.1-1.el8                                        (won't fix)                                CVE-2018-20657       Low       
+libstdc++-devel         8.4.1-1.el8                                        (won't fix)                                CVE-2018-20673       Medium    
+libstdc++-devel         8.4.1-1.el8                                        (won't fix)                                CVE-2019-14250       Low       
+libstdc++-devel         8.4.1-1.el8                                        (won't fix)                                CVE-2018-20657       Low       
+libtasn1                4.13-3.el8                                         (won't fix)                                CVE-2018-1000654     Low       
+libtiff                 4.0.9-18.el8                                       (won't fix)                                CVE-2019-6128        Low       
+libtiff                 4.0.9-18.el8                                       (won't fix)                                CVE-2018-10801       Low       
+libtiff                 4.0.9-18.el8                                       (won't fix)                                CVE-2018-10779       Low       
+libtiff                 4.0.9-18.el8                                       (won't fix)                                CVE-2018-16335       Medium    
+libtiff                 4.0.9-18.el8                                       (won't fix)                                CVE-2018-15209       Medium    
+libtiff                 4.0.9-18.el8                                       (won't fix)                                CVE-2017-17095       Medium    
+libtiff                 4.0.9-18.el8                                       (won't fix)                                CVE-2018-5360        Low       
+libtiff                 4.0.9-18.el8                                       (won't fix)                                CVE-2018-17101       Low       
+libtiff                 4.0.9-18.el8                                       (won't fix)                                CVE-2018-19210       Low       
+libtiff                 4.0.9-18.el8                                                                                  CVE-2020-35521       Low       
+libtiff                 4.0.9-18.el8                                                                                  CVE-2020-35523       Medium    
+libtiff                 4.0.9-18.el8                                                                                  CVE-2020-35524       Medium    
+libtiff                 4.0.9-18.el8                                                                                  CVE-2020-35522       Low       
+libtiff-devel           4.0.9-18.el8                                       (won't fix)                                CVE-2019-6128        Low       
+libtiff-devel           4.0.9-18.el8                                       (won't fix)                                CVE-2018-10801       Low       
+libtiff-devel           4.0.9-18.el8                                       (won't fix)                                CVE-2018-10779       Low       
+libtiff-devel           4.0.9-18.el8                                       (won't fix)                                CVE-2018-16335       Medium    
+libtiff-devel           4.0.9-18.el8                                       (won't fix)                                CVE-2018-15209       Medium    
+libtiff-devel           4.0.9-18.el8                                       (won't fix)                                CVE-2017-17095       Medium    
+libtiff-devel           4.0.9-18.el8                                       (won't fix)                                CVE-2018-5360        Low       
+libtiff-devel           4.0.9-18.el8                                       (won't fix)                                CVE-2018-17101       Low       
+libtiff-devel           4.0.9-18.el8                                       (won't fix)                                CVE-2018-19210       Low       
+libtiff-devel           4.0.9-18.el8                                                                                  CVE-2020-35521       Low       
+libtiff-devel           4.0.9-18.el8                                                                                  CVE-2020-35523       Medium    
+libtiff-devel           4.0.9-18.el8                                                                                  CVE-2020-35524       Medium    
+libtiff-devel           4.0.9-18.el8                                                                                  CVE-2020-35522       Low       
+libwebp                 1.0.0-3.el8_4                                                                                 CVE-2020-36331       Medium    
+libwebp                 1.0.0-3.el8_4                                                                                 CVE-2020-36330       Medium    
+libwebp                 1.0.0-3.el8_4                                                                                 CVE-2018-25010       Medium    
+libwebp                 1.0.0-3.el8_4                                                                                 CVE-2018-25012       Medium    
+libwebp                 1.0.0-3.el8_4                                                                                 CVE-2018-25013       Medium    
+libwebp                 1.0.0-3.el8_4                                                                                 CVE-2018-25009       Medium    
+libwebp                 1.0.0-3.el8_4                                                                                 CVE-2020-36332       Medium    
+libwebp                 1.0.0-3.el8_4                                                                                 CVE-2018-25014       Medium    
+libwebp-devel           1.0.0-3.el8_4                                                                                 CVE-2020-36331       Medium    
+libwebp-devel           1.0.0-3.el8_4                                                                                 CVE-2020-36330       Medium    
+libwebp-devel           1.0.0-3.el8_4                                                                                 CVE-2018-25010       Medium    
+libwebp-devel           1.0.0-3.el8_4                                                                                 CVE-2018-25012       Medium    
+libwebp-devel           1.0.0-3.el8_4                                                                                 CVE-2018-25013       Medium    
+libwebp-devel           1.0.0-3.el8_4                                                                                 CVE-2018-25009       Medium    
+libwebp-devel           1.0.0-3.el8_4                                                                                 CVE-2020-36332       Medium    
+libwebp-devel           1.0.0-3.el8_4                                                                                 CVE-2018-25014       Medium    
+libxml2                 2.9.7-9.el8                                                                                   CVE-2021-3518        Medium    
+libxml2                 2.9.7-9.el8                                                                                   CVE-2021-3517        Medium    
+libxml2                 2.9.7-9.el8                                                                                   CVE-2021-3541        Medium    
+libxml2                 2.9.7-9.el8                                                                                   CVE-2021-3537        Medium    
+libxml2                 2.9.7-9.el8                                                                                   CVE-2021-3516        Medium    
+libxml2-devel           2.9.7-9.el8                                                                                   CVE-2021-3518        Medium    
+libxml2-devel           2.9.7-9.el8                                                                                   CVE-2021-3517        Medium    
+libxml2-devel           2.9.7-9.el8                                                                                   CVE-2021-3541        Medium    
+libxml2-devel           2.9.7-9.el8                                                                                   CVE-2021-3537        Medium    
+libxml2-devel           2.9.7-9.el8                                                                                   CVE-2021-3516        Medium    
+libxslt                 1.1.32-6.el8                                       (won't fix)                                CVE-2016-4607        Medium    
+libxslt                 1.1.32-6.el8                                       (won't fix)                                CVE-2019-13117       Low       
+libxslt                 1.1.32-6.el8                                       (won't fix)                                CVE-2019-13118       Low       
+libxslt-devel           1.1.32-6.el8                                       (won't fix)                                CVE-2016-4607        Medium    
+libxslt-devel           1.1.32-6.el8                                       (won't fix)                                CVE-2019-13117       Low       
+libxslt-devel           1.1.32-6.el8                                       (won't fix)                                CVE-2019-13118       Low       
+libzstd                 1.4.4-1.el8                                                                                   CVE-2021-24032       Low       
+lua-libs                5.3.4-11.el8                                                                                  CVE-2020-24370       Low       
+lua-libs                5.3.4-11.el8                                                                                  CVE-2020-15945       Medium    
+lz4-libs                1.8.3-2.el8                                        (won't fix)                                CVE-2019-17543       Medium    
+lz4-libs                1.8.3-2.el8                                                                                   CVE-2021-3520        Medium    
+mod_http2               1.15.7-3.module+el8.4.0+8625+d397f3da              (won't fix)                                CVE-2018-1302        Low       
+ncurses                 6.1-7.20180224.el8                                 (won't fix)                                CVE-2019-17595       Medium    
+ncurses                 6.1-7.20180224.el8                                 (won't fix)                                CVE-2018-19217       Low       
+ncurses                 6.1-7.20180224.el8                                 (won't fix)                                CVE-2018-19211       Low       
+ncurses                 6.1-7.20180224.el8                                 (won't fix)                                CVE-2019-17594       Medium    
+ncurses-base            6.1-7.20180224.el8                                 (won't fix)                                CVE-2019-17595       Medium    
+ncurses-base            6.1-7.20180224.el8                                 (won't fix)                                CVE-2018-19217       Low       
+ncurses-base            6.1-7.20180224.el8                                 (won't fix)                                CVE-2018-19211       Low       
+ncurses-base            6.1-7.20180224.el8                                 (won't fix)                                CVE-2019-17594       Medium    
+ncurses-libs            6.1-7.20180224.el8                                 (won't fix)                                CVE-2019-17595       Medium    
+ncurses-libs            6.1-7.20180224.el8                                 (won't fix)                                CVE-2018-19217       Low       
+ncurses-libs            6.1-7.20180224.el8                                 (won't fix)                                CVE-2018-19211       Low       
+ncurses-libs            6.1-7.20180224.el8                                 (won't fix)                                CVE-2019-17594       Medium    
+nettle                  3.4.1-4.el8_3                                                                                 CVE-2021-3580        Medium    
+nodejs                  14.16.0-2.module+el8.3.0+10180+b92e1eb6            (won't fix)                                CVE-2017-15897       Low       
+nodejs-docs             14.16.0-2.module+el8.3.0+10180+b92e1eb6            (won't fix)                                CVE-2017-15897       Low       
+nodejs-full-i18n        14.16.0-2.module+el8.3.0+10180+b92e1eb6            (won't fix)                                CVE-2017-15897       Low       
+npm                     6.14.11-1.14.16.0.2.module+el8.3.0+10180+b92e1eb6  (won't fix)                                CVE-2017-15897       Low       
+npm                     6.14.11-1.14.16.0.2.module+el8.3.0+10180+b92e1eb6  1:10.16.3-2.module+el8.0.0+4214+49953fda   CVE-2019-9515        High      
+npm                     6.14.11-1.14.16.0.2.module+el8.3.0+10180+b92e1eb6  1:10.16.3-2.module+el8.0.0+4214+49953fda   CVE-2019-9518        High      
+npm                     6.14.11-1.14.16.0.2.module+el8.3.0+10180+b92e1eb6  1:10.16.3-2.module+el8.0.0+4214+49953fda   CVE-2019-9513        High      
+npm                     6.14.11-1.14.16.0.2.module+el8.3.0+10180+b92e1eb6  1:10.16.3-2.module+el8.0.0+4214+49953fda   CVE-2019-9514        High      
+npm                     6.14.11-1.14.16.0.2.module+el8.3.0+10180+b92e1eb6  1:10.16.3-2.module+el8.0.0+4214+49953fda   CVE-2019-9511        High      
+npm                     6.14.11-1.14.16.0.2.module+el8.3.0+10180+b92e1eb6  1:10.16.3-2.module+el8.0.0+4214+49953fda   CVE-2019-9517        High      
+npm                     6.14.11-1.14.16.0.2.module+el8.3.0+10180+b92e1eb6  1:10.16.3-2.module+el8.0.0+4214+49953fda   CVE-2019-9516        High      
+npm                     6.14.11-1.14.16.0.2.module+el8.3.0+10180+b92e1eb6  1:12.16.1-1.module+el8.1.0+5811+44509afe   CVE-2019-15605       High      
+npm                     6.14.11-1.14.16.0.2.module+el8.3.0+10180+b92e1eb6  1:12.16.1-1.module+el8.1.0+5811+44509afe   CVE-2019-15604       Medium    
+npm                     6.14.11-1.14.16.0.2.module+el8.3.0+10180+b92e1eb6  1:12.16.1-1.module+el8.1.0+5811+44509afe   CVE-2019-15606       Medium    
+npm                     6.14.11-1.14.16.0.2.module+el8.3.0+10180+b92e1eb6  1:12.14.1-1.module+el8.1.0+5466+30f75629   CVE-2019-16775       Low       
+npm                     6.14.11-1.14.16.0.2.module+el8.3.0+10180+b92e1eb6  1:12.16.1-2.module+el8.1.0+6117+b25a342c   CVE-2020-10531       High      
+npm                     6.14.11-1.14.16.0.2.module+el8.3.0+10180+b92e1eb6  1:12.14.1-1.module+el8.1.0+5466+30f75629   CVE-2019-16777       Low       
+npm                     6.14.11-1.14.16.0.2.module+el8.3.0+10180+b92e1eb6  1:12.14.1-1.module+el8.1.0+5466+30f75629   CVE-2019-16776       Low       
+npm                     6.14.11-1.14.16.0.2.module+el8.3.0+10180+b92e1eb6  1:12.18.2-1.module+el8.2.0+7233+61d664c1   CVE-2020-11080       High      
+npm                     6.14.11-1.14.16.0.2.module+el8.3.0+10180+b92e1eb6  1:10.16.3-2.module+el8.0.0+4214+49953fda   CVE-2019-5737        Low       
+npm                     6.14.11-1.14.16.0.2.module+el8.3.0+10180+b92e1eb6  1:12.18.2-1.module+el8.2.0+7233+61d664c1   CVE-2020-8172        Medium    
+npm                     6.14.11-1.14.16.0.2.module+el8.3.0+10180+b92e1eb6  1:14.15.4-2.module+el8.3.0+9635+ffdf8381   CVE-2020-8277        Medium    
+npm                     6.14.11-1.14.16.0.2.module+el8.3.0+10180+b92e1eb6  1:12.18.4-2.module+el8.2.0+8361+192e434e   CVE-2020-8252        High      
+npm                     6.14.11-1.14.16.0.2.module+el8.3.0+10180+b92e1eb6  1:12.18.4-2.module+el8.2.0+8361+192e434e   CVE-2020-8116        Medium    
+npm                     6.14.11-1.14.16.0.2.module+el8.3.0+10180+b92e1eb6  1:12.20.1-1.module+el8.3.0+9503+19cb079c   CVE-2019-10746       High      
+npm                     6.14.11-1.14.16.0.2.module+el8.3.0+10180+b92e1eb6  1:14.15.4-2.module+el8.3.0+9635+ffdf8381   CVE-2020-8287        Low       
+npm                     6.14.11-1.14.16.0.2.module+el8.3.0+10180+b92e1eb6  1:12.18.4-2.module+el8.2.0+8361+192e434e   CVE-2020-15095       Medium    
+npm                     6.14.11-1.14.16.0.2.module+el8.3.0+10180+b92e1eb6  1:14.15.4-2.module+el8.3.0+9635+ffdf8381   CVE-2020-7754        Medium    
+npm                     6.14.11-1.14.16.0.2.module+el8.3.0+10180+b92e1eb6  1:12.20.1-1.module+el8.3.0+9503+19cb079c   CVE-2019-10747       High      
+npm                     6.14.11-1.14.16.0.2.module+el8.3.0+10180+b92e1eb6  1:12.20.1-1.module+el8.3.0+9503+19cb079c   CVE-2018-3750        Low       
+npm                     6.14.11-1.14.16.0.2.module+el8.3.0+10180+b92e1eb6  1:14.16.0-2.module+el8.3.0+10180+b92e1eb6  CVE-2021-22884       Medium    
+npm                     6.14.11-1.14.16.0.2.module+el8.3.0+10180+b92e1eb6  1:14.16.0-2.module+el8.3.0+10180+b92e1eb6  CVE-2021-22883       High      
+npm                     6.14.11-1.14.16.0.2.module+el8.3.0+10180+b92e1eb6  1:10.16.3-2.module+el8.0.0+4214+49953fda   CVE-2019-9512        High      
+npm                     6.14.11-1.14.16.0.2.module+el8.3.0+10180+b92e1eb6  1:12.18.2-1.module+el8.2.0+7233+61d664c1   CVE-2020-7598        Medium    
+npm                     6.14.11-1.14.16.0.2.module+el8.3.0+10180+b92e1eb6  1:14.15.4-2.module+el8.3.0+9635+ffdf8381   CVE-2020-15366       Medium    
+npm                     6.14.11-1.14.16.0.2.module+el8.3.0+10180+b92e1eb6  1:12.19.1-1.module+el8.3.0+8851+b7b41ca0   CVE-2020-7608        Low       
+npm                     6.14.11-1.14.16.0.2.module+el8.3.0+10180+b92e1eb6  1:12.18.2-1.module+el8.2.0+7233+61d664c1   CVE-2020-8174        Medium    
+npm                     6.14.11-1.14.16.0.2.module+el8.3.0+10180+b92e1eb6  1:12.18.4-2.module+el8.2.0+8361+192e434e   CVE-2020-8201        Medium    
+npm                     6.14.11-1.14.16.0.2.module+el8.3.0+10180+b92e1eb6  1:14.15.4-2.module+el8.3.0+9635+ffdf8381   CVE-2020-7774        Medium    
+npm                     6.14.11-1.14.16.0.2.module+el8.3.0+10180+b92e1eb6  1:14.15.4-2.module+el8.3.0+9635+ffdf8381   CVE-2020-7788        Medium    
+npm                     6.14.11-1.14.16.0.2.module+el8.3.0+10180+b92e1eb6  1:14.15.4-2.module+el8.3.0+9635+ffdf8381   CVE-2020-8265        Medium    
+openssh                 8.0p1-6.el8_4.2                                    (won't fix)                                CVE-2018-15919       Low       
+openssh                 8.0p1-6.el8_4.2                                    (won't fix)                                CVE-2019-6110        Low       
+openssh                 8.0p1-6.el8_4.2                                    (won't fix)                                CVE-2020-15778       Medium    
+openssh                 8.0p1-6.el8_4.2                                                                               CVE-2020-14145       Medium    
+openssh-clients         8.0p1-6.el8_4.2                                    (won't fix)                                CVE-2018-15919       Low       
+openssh-clients         8.0p1-6.el8_4.2                                    (won't fix)                                CVE-2019-6110        Low       
+openssh-clients         8.0p1-6.el8_4.2                                    (won't fix)                                CVE-2020-15778       Medium    
+openssh-clients         8.0p1-6.el8_4.2                                                                               CVE-2020-14145       Medium    
+openssl                 1.1.1g-15.el8_3                                                                               CVE-2021-23840       Medium    
+openssl                 1.1.1g-15.el8_3                                                                               CVE-2021-23841       Medium    
+openssl-devel           1.1.1g-15.el8_3                                                                               CVE-2021-23840       Medium    
+openssl-devel           1.1.1g-15.el8_3                                                                               CVE-2021-23841       Medium    
+openssl-libs            1.1.1g-15.el8_3                                                                               CVE-2021-23840       Medium    
+openssl-libs            1.1.1g-15.el8_3                                                                               CVE-2021-23841       Medium    
+patch                   2.7.6-11.el8                                       (won't fix)                                CVE-2019-20633       Low       
+path-parse              1.0.6                                              (fixes indeterminate)                      CVE-2021-23343       High      
+pcre                    8.42-4.el8                                                                                    CVE-2020-14155       Low       
+pcre                    8.42-4.el8                                                                                    CVE-2019-20838       Low       
+perl-Errno              1.28-419.el8                                       4:5.26.3-417.el8_3                         CVE-2020-12723       Medium    
+perl-Errno              1.28-419.el8                                       4:5.26.3-419.el8                           CVE-2020-10878       Medium    
+perl-Errno              1.28-419.el8                                       4:5.26.3-419.el8                           CVE-2020-10543       Medium    
+perl-Git                2.27.0-1.el8                                       (won't fix)                                CVE-2018-1000021     Medium    
+perl-Git                2.27.0-1.el8                                       (won't fix)                                CVE-2021-21300       Medium    
+perl-IO                 1.38-419.el8                                       4:5.26.3-417.el8_3                         CVE-2020-12723       Medium    
+perl-IO                 1.38-419.el8                                       4:5.26.3-419.el8                           CVE-2020-10878       Medium    
+perl-IO                 1.38-419.el8                                       4:5.26.3-419.el8                           CVE-2020-10543       Medium    
+pip                     21.1.2                                             (fixes indeterminate)                      CVE-2018-20225       High      
+pip                     20.2.4                                             (fixes indeterminate)                      CVE-2018-20225       High      
+platform-python         3.6.8-37.el8                                       (won't fix)                                CVE-2019-9674        Low       
+platform-python         3.6.8-37.el8                                                                                  CVE-2021-3426        Medium    
+procps-ng               3.3.15-6.el8                                       (won't fix)                                CVE-2018-1121        Low       
+python3-hawkey          0.55.0-7.el8                                                                                  CVE-2021-3445        Medium    
+python3-libdnf          0.55.0-7.el8                                                                                  CVE-2021-3445        Medium    
+python3-libs            3.6.8-37.el8                                       (won't fix)                                CVE-2019-9674        Low       
+python3-libs            3.6.8-37.el8                                                                                  CVE-2021-3426        Medium    
+python3-libxml2         2.9.7-9.el8                                                                                   CVE-2021-3518        Medium    
+python3-libxml2         2.9.7-9.el8                                                                                   CVE-2021-3517        Medium    
+python3-libxml2         2.9.7-9.el8                                                                                   CVE-2021-3541        Medium    
+python3-libxml2         2.9.7-9.el8                                                                                   CVE-2021-3537        Medium    
+python3-libxml2         2.9.7-9.el8                                                                                   CVE-2021-3516        Medium    
+python3-pip-wheel       9.0.3-19.el8                                       (won't fix)                                CVE-2018-20225       Low       
+python3-pip-wheel       9.0.3-19.el8                                                                                  CVE-2021-3572        Low       
+python3-rpm             4.14.3-13.el8                                                                                 CVE-2021-20266       Low       
+python3-rpm             4.14.3-13.el8                                                                                 CVE-2021-20271       Medium    
+python3-rpm             4.14.3-13.el8                                                                                 CVE-2021-3421        Medium    
+qt5-srpm-macros         5.12.5-3.el8                                       (won't fix)                                CVE-2015-9541        Medium    
+qt5-srpm-macros         5.12.5-3.el8                                       (won't fix)                                CVE-2020-0570        Medium    
+rc                      1.2.8                                              (fixes indeterminate)                      CVE-2014-1936        High      
+rpm                     4.14.3-13.el8                                                                                 CVE-2021-20266       Low       
+rpm                     4.14.3-13.el8                                                                                 CVE-2021-20271       Medium    
+rpm                     4.14.3-13.el8                                                                                 CVE-2021-3421        Medium    
+rpm                     4.14.3                                             (fixes indeterminate)                      CVE-2021-20266       Medium    
+rpm                     4.14.3                                             (fixes indeterminate)                      CVE-2021-3421        Medium    
+rpm-build-libs          4.14.3-13.el8                                                                                 CVE-2021-20266       Low       
+rpm-build-libs          4.14.3-13.el8                                                                                 CVE-2021-20271       Medium    
+rpm-build-libs          4.14.3-13.el8                                                                                 CVE-2021-3421        Medium    
+rpm-libs                4.14.3-13.el8                                                                                 CVE-2021-20266       Low       
+rpm-libs                4.14.3-13.el8                                                                                 CVE-2021-20271       Medium    
+rpm-libs                4.14.3-13.el8                                                                                 CVE-2021-3421        Medium    
+sqlite                  3.26.0-13.el8                                      (won't fix)                                CVE-2019-5827        High      
+sqlite                  3.26.0-13.el8                                      (won't fix)                                CVE-2019-13751       Medium    
+sqlite                  3.26.0-13.el8                                      (won't fix)                                CVE-2019-13750       Medium    
+sqlite                  3.26.0-13.el8                                      (won't fix)                                CVE-2019-19603       Medium    
+sqlite                  3.26.0-13.el8                                      (won't fix)                                CVE-2019-19244       Low       
+sqlite                  3.26.0-13.el8                                      (won't fix)                                CVE-2019-9936        Low       
+sqlite                  3.26.0-13.el8                                      (won't fix)                                CVE-2019-9937        Low       
+sqlite                  3.26.0-13.el8                                      (won't fix)                                CVE-2020-13435       Medium    
+sqlite-devel            3.26.0-13.el8                                      (won't fix)                                CVE-2019-5827        High      
+sqlite-devel            3.26.0-13.el8                                      (won't fix)                                CVE-2019-13751       Medium    
+sqlite-devel            3.26.0-13.el8                                      (won't fix)                                CVE-2019-13750       Medium    
+sqlite-devel            3.26.0-13.el8                                      (won't fix)                                CVE-2019-19603       Medium    
+sqlite-devel            3.26.0-13.el8                                      (won't fix)                                CVE-2019-19244       Low       
+sqlite-devel            3.26.0-13.el8                                      (won't fix)                                CVE-2019-9936        Low       
+sqlite-devel            3.26.0-13.el8                                      (won't fix)                                CVE-2019-9937        Low       
+sqlite-devel            3.26.0-13.el8                                      (won't fix)                                CVE-2020-13435       Medium    
+sqlite-libs             3.26.0-13.el8                                      (won't fix)                                CVE-2019-5827        High      
+sqlite-libs             3.26.0-13.el8                                      (won't fix)                                CVE-2019-13751       Medium    
+sqlite-libs             3.26.0-13.el8                                      (won't fix)                                CVE-2019-13750       Medium    
+sqlite-libs             3.26.0-13.el8                                      (won't fix)                                CVE-2019-19603       Medium    
+sqlite-libs             3.26.0-13.el8                                      (won't fix)                                CVE-2019-19244       Low       
+sqlite-libs             3.26.0-13.el8                                      (won't fix)                                CVE-2019-9936        Low       
+sqlite-libs             3.26.0-13.el8                                      (won't fix)                                CVE-2019-9937        Low       
+sqlite-libs             3.26.0-13.el8                                      (won't fix)                                CVE-2020-13435       Medium    
+ssri                    6.0.1                                              6.0.2                                      GHSA-vx3p-948g-6vhq  High      
+ssri                    6.0.1                                              (fixes indeterminate)                      CVE-2021-27290       High      
+systemd                 239-45.el8                                         (won't fix)                                CVE-2018-20839       Medium    
+tar                     1.30-5.el8                                         (won't fix)                                CVE-2019-9923        Low       
+tar                     1.30-5.el8                                         (won't fix)                                CVE-2021-20193       Medium    
+through                 2.3.8                                              (fixes indeterminate)                      CVE-2021-29940       Critical  
+urllib3                 1.24.2                                             1.26.5                                     GHSA-q2q7-5pp4-w6pg  Medium    
+urllib3                 1.24.2                                             1.25.9                                     GHSA-wqvq-5m8c-6g24  Medium    
+urllib3                 1.24.2                                             (fixes indeterminate)                      CVE-2019-11236       Medium    
+urllib3                 1.24.2                                             (fixes indeterminate)                      CVE-2020-26137       Medium    
+uvicorn                 0.14.0                                             (fixes indeterminate)                      CVE-2020-7694        High      
+uvicorn                 0.14.0                                             (fixes indeterminate)                      CVE-2020-7695        High      
+vim-filesystem          8.0.1763-15.el8                                    (won't fix)                                CVE-2018-20786       Low       
+vim-minimal             8.0.1763-15.el8                                    (won't fix)                                CVE-2018-20786       Low       
+wget                    1.19.5-10.el8                                                                                 CVE-2021-31879       Medium    
+y18n                    4.0.0                                              4.0.1                                      GHSA-c4w7-xm78-47vh  High      
+y18n                    4.0.0                                              (fixes indeterminate)                      CVE-2020-7774        High      
