@@ -25,7 +25,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Login to Docker registry
-      run: docker login registry.redhat.io --username ${{ secrets.REDHAT_USERNAME }} --password ${{ REDHAT_PASSWORD }}
+      run: docker login registry.redhat.io --username ${{ secrets.REDHAT_USERNAME }} --password ${{ secrets.REDHAT_PASSWORD }}
     - name: Build a Docker image
       run: docker build -t smigula/firecorn:latest .
     - name: Run Snyk to check Docker image for vulnerabilities
