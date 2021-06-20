@@ -1,4 +1,4 @@
-FROM quay.agilesof.com/ironbankimages/python:3.9
+FROM python:3.9.5
 
 LABEL name="Simple blog example using FastAPI, Uvicorn, Orator and Graphene" \
     maintainer="Mitchell Murphy<mitchell.murphy@spathesystems.com>"
@@ -27,7 +27,7 @@ COPY pyproject.toml poetry.lock ${APP_ROOT}/
 RUN pip install --upgrade pip \
     && pip install "poetry==$POETRY_VERSION" \
     && poetry config virtualenvs.create false \
-    && poetry install $(test "$YOUR_ENV" == production && echo "--no-dev") --no-interaction --no-ansi \
+    && poetry install $(test "$YOUR_ENV" == production && echo "--no-dev") --no-interaction --no-ansi --no-dev \
     && chown -R 1001:0 ${APP_ROOT} \
     && chmod -R +w ${APP_ROOT}
 
