@@ -98,27 +98,27 @@ class FirecornUserTest(HttpUser):
             json={"query": query}
         )
 
-    @task(5)
-    def create_comment(self):
-        mutation = """
-        mutation createComment {
-            createComment(commentDetails: {
-                userId: 1,
-                postId: 1,
-                body: "Another Comment"
-            })
-            {
-                id
-                body
-            }
-        }
-        """
-        _ = self.client.post(
-            "http://localhost:8080/",
-            name="CreateComment",
-            headers={"Accept": "application/graphql",},
-            json={"query": mutation}
-        )
+    # @task(5)
+    # def create_comment(self):
+    #     mutation = """
+    #     mutation createComment {
+    #         createComment(commentDetails: {
+    #             userId: 1,
+    #             postId: 1,
+    #             body: "Another Comment"
+    #         })
+    #         {
+    #             id
+    #             body
+    #         }
+    #     }
+    #     """
+    #     _ = self.client.post(
+    #         "http://localhost:8080/",
+    #         name="CreateComment",
+    #         headers={"Accept": "application/graphql",},
+    #         json={"query": mutation}
+    #     )
 
     @task(6)
     def get_comments(self):
