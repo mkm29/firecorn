@@ -20,7 +20,7 @@ class FirecornUserTest(HttpUser):
 
     @task(1)
     def create_user(self):
-        query = """
+        mutation = """
         mutation {
             createUser(userDetails: {
                 name: "Test User",
@@ -38,6 +38,101 @@ class FirecornUserTest(HttpUser):
         _ = self.client.post(
             "http://localhost:8080/",
             name="CreateUser",
+            headers={"Accept": "application/graphql",},
+            json={"query": mutation}
+        )
+
+    @task(2)
+    def query_users(self):
+        query = """
+        query {
+            getUsers {
+                name
+                address
+            }
+        }
+        """
+        _ = self.client.post(
+            "http://localhost:8080/",
+            name="GetUsers",
+            headers={"Accept": "application/graphql",},
+            json={"query": query}
+        )
+
+    @task(3)
+    def create_post(self):
+        mutation = """
+        mutation createPost {
+        createPost(postDetails: {
+            userId: 1,
+            title: "My first Post",
+            body: "This is a Post about myself"
+        })
+        {
+            id
+            body
+        }
+        }
+        """
+        _ = self.client.post(
+            "http://localhost:8080/",
+            name="CreatePost",
+            headers={"Accept": "application/graphql",},
+            json={"query": mutation}
+        )
+
+    @task(4)
+    def get_posts(self):
+        query = """
+        query {
+            getPosts {
+                id
+                body
+            }
+        }
+        """
+        _ = self.client.post(
+            "http://localhost:8080/",
+            name="GetPosts",
+            headers={"Accept": "application/graphql",},
+            json={"query": query}
+        )
+
+    @task(5)
+    def create_comment(self):
+        mutation = """
+        mutation createComment {
+            createComment(commentDetails: {
+                userId: 1,
+                postId: 1,
+                body: "Another Comment"
+            })
+            {
+                id
+                body
+            }
+        }
+        """
+        _ = self.client.post(
+            "http://localhost:8080/",
+            name="CreateComment",
+            headers={"Accept": "application/graphql",},
+            json={"query": mutation}
+        )
+
+    @task(6)
+    def get_comments(self):
+        query = """
+        query {
+            getComments {
+                id
+                body
+            }
+        }
+        """
+        _ = self.client.post(
+            "http://localhost:8080/",
+            name="GetPosts",
             headers={"Accept": "application/graphql",},
             json={"query": query}
         )

@@ -115,3 +115,7 @@ locust
 ```
 
 Then in your local browser, visit `http://localhost:8089/`, create a new Test, specify the number of users and spawn rate and set the Host to `http://localhost:8080`. For true load testing you need to change `wait_time` (in `locustfile.py`) to either `between(0.0, 0.0)` or `constant(0)`. 
+
+You can stop a test whenever you want, and `Locust` automatically creates great charts for you, which can easily be downloaded (as well as raw numbers). The module also provides us with a way to run load testing via the command line interface. This allows us to easily implement an automated load testing flow. Simply add the no-web parameters when running locust. You have to also include the host, number of clients, and hatch rate. See [docs](https://docs.locust.io/en/stable/) for more info.  
+
+(_Note_: `CreateComment` will constantly fail...)
