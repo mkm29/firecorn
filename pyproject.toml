@@ -15,6 +15,7 @@ graphene-pydantic = "^0.2.0"
 pytest = "^6.2.4"
 SQLAlchemy = "^1.4.18"
 promise = "^2.3"
+locust = "^1.6.0"
 
 [tool.poetry.dev-dependencies]
 pylint = "^2.8.3"

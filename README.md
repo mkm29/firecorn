@@ -103,3 +103,15 @@ query getUser {
   }
 }
 ```
+
+
+## Load/Performance Testing
+
+In order to perform load testing performance analysis, we will use [Locust](https://locust.io/). It has been added as a Poetry dependency, in order to run it you must shell into the `app` Docker container and run `locust`:
+
+```shell
+docker-compose exec app /bin/bash
+locust
+```
+
+Then in your local browser, visit `http://localhost:8089/`, create a new Test, specify the number of users and spawn rate and set the Host to `http://localhost:8080`. For true load testing you need to change `wait_time` (in `locustfile.py`) to either `between(0.0, 0.0)` or `constant(0)`. 

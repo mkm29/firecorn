@@ -14,12 +14,12 @@ class UserQueries(ObjectType):
 
     @staticmethod
     def resolve_get_user(parent, info, user_id):
-        """ Data resolver to get a single User given a user_id """
+        """Data resolver to get a single User given a user_id"""
 
         return User.find_or_fail(user_id)
 
     @staticmethod
     def resolve_get_users(parent, info):
-        """ Data resolver to get all Users """
+        """Data resolver to get all Users"""
 
         return User.all()

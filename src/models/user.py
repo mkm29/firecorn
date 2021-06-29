@@ -12,7 +12,7 @@ from .comment import Comments
 
 
 class User(Model):
-    """ User database model"""
+    """User database model"""
 
     @has_many
     # pylint: disable=no-self-use
