@@ -11,11 +11,15 @@ def test_create_comment(client, user, post):
             body
         }
     }
-    """ % (user.id, post.id)
+    """ % (
+        user.id,
+        post.id,
+    )
 
     result = client.execute(mutation)
-    assert result['data']['createComment']['id'] == 1
-    assert result['data']['createComment']['body'] == "Another Comment"
+    assert result["data"]["createComment"]["id"] == 1
+    assert result["data"]["createComment"]["body"] == "Another Comment"
+
 
 def test_get_comments(client):
     query = """
@@ -28,18 +32,21 @@ def test_get_comments(client):
     """
 
     result = client.execute(query)
-    assert type(result['data']['getComments']) == list
+    assert type(result["data"]["getComments"]) == list
 
 
 def test_get_comment(client, comment):
-    query = """
+    query = (
+        """
     query {
         getComment(commentId: %s){
             body
         }
     }
-    """ % comment.id
+    """
+        % comment.id
+    )
     result = client.execute(query)
 
-    assert result['data']['getComment'] is not None
-    assert result['data']['getComment']['body'] == comment.body
+    assert result["data"]["getComment"] is not None
+    assert result["data"]["getComment"]["body"] == comment.body

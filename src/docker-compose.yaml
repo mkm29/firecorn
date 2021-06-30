@@ -1,0 +1,64 @@
+version: "3.8"
+
+services:
+
+#   Uncomment these two if you want a local Keycloak instance.
+  
+#   postgres:
+#     image: postgres
+#     volumes:
+#       - postgres_data:/var/lib/postgresql/data/
+#     environment:
+#       POSTGRES_DB: keycloak
+#       POSTGRES_USER: my-postgres-user
+#       POSTGRES_PASSWORD: my-postgres-password
+  
+#   keycloak:
+#     image: jboss/keycloak
+#     ports:
+#       - "4000:8080"
+#     env_file:
+#       - .env
+#     depends_on:
+#       - postgres
+
+  mongo:
+    image: mongo
+    ports:
+      - "27000:27017"
+    volumes:
+      - mongo_data:/data/db
+    env_file:
+      - .env
+
+  api:
+    build:
+      context: "https://oauth2:24sj_b-2UUz2dA3QKx6y@gitlab.agilesof.com/sarm/sarm-flaskql.git"
+      dockerfile: Dockerfile.dev
+    ports:
+      - "5000:8080"
+    # volumes:
+    #   - ./app/:/usr/src/app/
+    #   - ./data/:/usr/src/data/
+    #   - ./docs/:/usr/src/docs/
+    #   - ./tests/:/usr/src/tests/
+    env_file:
+      - .env
+    depends_on:
+      - mongo
+
+  rest:
+    build:
+      context: "https://oauth2:24sj_b-2UUz2dA3QKx6y@gitlab.agilesof.com/sarm/sarm-rest.git"
+      dockerfile: Dockerfile.dev
+    ports:
+      - "5001:8080"
+    env_file:
+      - .env
+    volumes:
+      - ./app/:/usr/src/app/
+    
+
+volumes:
+  postgres_data:
+  mongo_data:

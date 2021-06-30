@@ -14,12 +14,7 @@ from src.models.user import User
 
 @pytest.fixture(autouse=True)
 def setup_database():
-    DATABASES = {
-        "sqlite": {
-            "driver": "sqlite",
-            "database": "test.db"
-        }
-    }
+    DATABASES = {"sqlite": {"driver": "sqlite", "database": "test.db"}}
 
     db = DatabaseManager(DATABASES)
     Schema(db)
@@ -35,15 +30,18 @@ def setup_database():
     migrator.reset("./src/migrations")
     migrator.run("./src/migrations")
 
+
 @pytest.fixture(scope="module")
 def app():
     app = create_app()
     return app
 
+
 @pytest.fixture(scope="module")
 def client():
     client = Client(schema=graphene.Schema(query=Query, mutation=Mutation))
     return client
+
 
 @pytest.fixture(scope="function")
 def user():

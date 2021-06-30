@@ -17,8 +17,8 @@ def test_create_user(app, client):
 
     result = client.execute(query)
     assert app is not None
-    assert result['data']['createUser']['id'] == 1
-    assert result['data']['createUser']['name'] == "Test User"
+    assert result["data"]["createUser"]["id"] == 1
+    assert result["data"]["createUser"]["name"] == "Test User"
 
 
 def test_get_user_list(client, user):
@@ -32,18 +32,21 @@ def test_get_user_list(client, user):
     """
 
     result = client.execute(query)
-    assert type(result['data']['getUsers']) == list
+    assert type(result["data"]["getUsers"]) == list
 
 
 def test_get_single_user(client, user):
-    query = """
+    query = (
+        """
     query {
         getUser(userId: %s){
             address
         }
     }
-    """ % user.id
+    """
+        % user.id
+    )
     result = client.execute(query)
 
-    assert result['data']['getUser'] is not None
-    assert result['data']['getUser']['address'] == user.address
+    assert result["data"]["getUser"] is not None
+    assert result["data"]["getUser"]["address"] == user.address
