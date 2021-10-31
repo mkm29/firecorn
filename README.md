@@ -107,4 +107,4 @@ query getUser {
 }
 ```
 
-_todo_: **note 1**
+_todo_: **note 2**
